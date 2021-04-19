@@ -1,5 +1,5 @@
 {
-    "name": "devchainsrl/phpcs-git-pre-commit",
+    "name": "devchainsrl/phpcs-phpcbf-git-pre-commit",
     "description": "PHPCS check before commit",
     "type": "scripts",
     "license": "MIT",
