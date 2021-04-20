@@ -17,14 +17,14 @@ Or alternatively, include a dependency for `smgladkovskiy/phpcs-git-pre-commit` 
 
     {
         "require-dev": {
-            "devchainsrl/phpcs-git-pre-commit": "dev-master"
+            "devchainsrl/phpcs-phpcbf-git-pre-commit": "dev-master"
         }
     }
 
 To enable code sniff, аdd to `post-install-cmd` and `post-update-cmd` in `composer.json` installation script:
 
     "scripts": {
-        "install-hooks": ["sh ./vendor/devchainsrl/phpcs-git-pre-commit/src/setup.sh"],
+        "install-hooks": ["sh ./vendor/devchainsrl/phpcs-phpcbf-git-pre-commit/src/setup.sh"],
         "post-install-cmd": ["@install-hooks"],
         "post-update-cmd": ["@install-hooks"]
     }
